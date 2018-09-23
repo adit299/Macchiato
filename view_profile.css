@@ -1,0 +1,80 @@
+.bg{
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+/* "Macchiato" */
+.navbar-brand{
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 42px;
+}
+
+.navbar-inverse{
+    margin-left:20px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+/* "Macchiato - You do not agree with something ? Let us talk about it !" */
+.logo-name{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+/* Navigation links */
+.nav-link{
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 30px;
+    font-size: 18px;
+    color:darkgreen;
+}
+
+/* Active navigation link */
+.active a{
+    color: #FF0000 !important;
+}
+
+/* Navigation link dropdown link */
+.dropdown-item,.ul,.li{
+    color: blue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+/* END OF NAVIGATION BAR */
+
+/* PROFILE VIEWING SECTION*/
+.profile_pic{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.profile-layout{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.edit{
+    margin-left:20px;
+}
+
+.panel-heading{
+    background-color: lightgray;
+}
+
+.panel-body{
+    padding-bottom:8%;
+    border-left-color:black;
+}
+
+.panel-group{
+    margin-right: 15px;
+}
+
+.modal-body{
+    margin-right: 10px;
+}
+/* END OF PROFILE VIEWING SECTION */

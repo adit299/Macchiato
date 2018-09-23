@@ -1,0 +1,85 @@
+.bg{
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+/* "Macchiato" */
+.navbar-brand{
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 42px;
+}
+
+.navbar-inverse{
+    margin-left:20px;
+    width: 150%;
+    background-color: skyblue;
+}
+
+/* "Macchiato - You do not agree with something ? Let us talk about it !" */
+.logo-name{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+/* Navigation links */
+.nav-link{
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 30px;
+    font-size: 18px;
+    color:darkgreen;
+}
+
+.btn{
+    margin-left:1.5px;
+}
+
+/* Active navigation link */
+.active a{
+    color: #FF0000 !important;
+}
+
+/* Navigation link dropdown link */
+.dropdown-item,.ul,.li{
+    color: blue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+/* END OF NAVIGATION BAR */
+
+
+/* CONTACT US + FOOTER SECTION*/
+
+.banner-title{
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+    font-size:26px;
+    margin-left:24px;
+    text-align: center;
+}
+
+.col-md-2{
+    margin-left: 30px;
+}
+.fa fa-facebook,.fa fa-twitter, .fa fa-google{
+    margin-left: 100px;
+    align-self: center;
+}
+
+.socialmedia-name{
+    font-family: "Courier New", Courier, monospace;
+    font-size:30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-weight:bold;
+}
+
+.col-sm-5, .socialmedia-title{
+    text-align: right;
+}
+
+/* END OF CONTACT US + FOOTER SECTION */

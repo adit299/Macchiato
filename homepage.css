@@ -1,0 +1,85 @@
+.bg{
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+/* "Macchiato" */
+.navbar-brand{
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 42px;
+}
+
+.navbar-inverse{
+    margin-left:20px;
+    width: 150%;
+    background-color: skyblue;
+}
+
+/* "Macchiato - You do not agree with something ? Let us talk about it !" */
+.logo-name{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+/* Navigation links */
+.nav-link{
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 30px;
+    font-size: 18px;
+    color:darkgreen;
+}
+
+.btn{
+    margin-left:1.5px;
+}
+
+/* Active navigation link */
+.active a{
+    color: #FF0000 !important;
+}
+
+/* Navigation link dropdown link */
+.dropdown-item,.ul,.li{
+    color: blue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+/* END OF NAVIGATION BAR */
+
+
+/* LOG IN SECTION*/
+.section{
+    background-color: #272525;
+    display: block;
+    overflow: auto;
+    font-family: "Courier New", Courier, monospace;
+    border-color: silver;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* RIGHT COLUMN FORM*/
+.form-control{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.photo{
+    width:110%;
+    height:100%;
+    margin-top: 30px;
+    margin-left:30px;
+}
+
+.col-md-5{
+    margin-left: 100px;
+    margin-top:60px;
+    background-color: yellowgreen;
+}
+/* END OF RIGHT COLUMN FORM*/
+
+/* END OF LOG IN SECTION */
