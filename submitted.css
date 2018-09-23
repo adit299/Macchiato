@@ -1,0 +1,68 @@
+.bg{
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+/* "Macchiato" */
+.navbar-brand{
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 42px;
+}
+
+.navbar-inverse{
+    margin-left:20px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+/* "Macchiato - You do not agree with something ? Let us talk about it !" */
+.logo-name{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+/* Navigation links */
+.nav-link{
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 30px;
+    font-size: 18px;
+    color:darkgreen;
+}
+
+/* Active navigation link */
+.active a{
+    color: #FF0000 !important;
+}
+
+/* Navigation link dropdown link */
+.dropdown-item,.ul,.li{
+    color: blue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+/* END OF NAVIGATION BAR */
+
+/* RESULTS SECTION*/
+.form-control{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.container-fluid{
+    background-color: beige;
+}
+
+.comment{
+    margin-left:15px;
+}
+
+.btn{
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+/* END OF RESULTS SECTION */
