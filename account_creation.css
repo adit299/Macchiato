@@ -14,7 +14,7 @@
 
 .navbar-inverse{
     margin-left:20px;
-    width: 150%;
+    width: 100%;
     background-color: skyblue;
 }
 
@@ -31,10 +31,6 @@
     margin-right: 30px;
     font-size: 18px;
     color:darkgreen;
-}
-
-.btn{
-    margin-left:1.5px;
 }
 
 /* Active navigation link */
@@ -66,7 +62,8 @@
 }
 
 .btn{
-    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 .photo{
