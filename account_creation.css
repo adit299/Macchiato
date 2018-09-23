@@ -50,36 +50,40 @@
 }
 /* END OF NAVIGATION BAR */
 
-
-/* LOG IN SECTION*/
-.section{
-    background-color: #272525;
-    display: block;
-    overflow: auto;
-    font-family: "Courier New", Courier, monospace;
-    border-color: silver;
-    border-style: solid;
-    border-width: 1px;
-}
-
-/* RIGHT COLUMN FORM*/
+/* CREATE ACCOUNT SECTION*/
 .form-control{
     margin-left: 10px;
     font-weight: bold;
 }
 
+.container-fluid{
+    background-color: pink;
+}
+
+.form{
+    margin-bottom: 15px;
+    background-color:pink;
+}
+
+.btn{
+    margin-bottom: 15px;
+}
+
 .photo{
-    width:110%;
-    height:100%;
-    margin-top: 30px;
+    width:120%;
+    height:110%;
+    margin-top: 10px;
     margin-left:30px;
 }
 
-.col-md-5{
+.col-md-4{
+    margin-left: 60px;
+    margin-top:60px;
+}
+
+.col-md-3{
     margin-left: 100px;
     margin-top:60px;
-    background-color: yellowgreen;
 }
-/* END OF RIGHT COLUMN FORM*/
 
-/* END OF LOG IN SECTION */
+/* END OF CREATE ACCOUNT SECTION */
