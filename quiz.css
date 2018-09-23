@@ -14,7 +14,7 @@
 
 .navbar-inverse{
     margin-left:20px;
-    width: 150%;
+    width: 100%;
     background-color: skyblue;
 }
 
@@ -33,10 +33,6 @@
     color:darkgreen;
 }
 
-.btn{
-    margin-left:1.5px;
-}
-
 /* Active navigation link */
 .active a{
     color: #FF0000 !important;
@@ -50,12 +46,24 @@
 }
 /* END OF NAVIGATION BAR */
 
-
-/* POSTS SECTION*/
-.display-info,.posts-section{
-    margin-left: 50px;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
+/* SURVEY FORM SECTION*/
+.form-control{
+    margin-left: 10px;
+    font-weight: bold;
 }
 
-/* END OF POSTS SECTION */
+.container-fluid{
+    background-color: pink;
+}
+
+.form{
+    margin-bottom: 15px;
+    background-color:pink;
+}
+
+.btn{
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+/* END OF SURVEY FORM SECTION */

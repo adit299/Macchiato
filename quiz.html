@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- W3Schools CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="quiz.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+
+    <title>Take the Quiz - Macchiato</title>
+    </head>
+
+    <body>
+        <div class="bg">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">MACCHIATO<br>
+                        <p class="logo-name">AGREE TO DISAGREE</p></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar navbar-inverse" id="navbarNavDropdown">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFILE
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="view_profile.html">VIEW / UPDATE MY PROFILE</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="quiz.html">TAKE QUIZ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact_us.html">CONTACT US</a>
+                            </li>
+                        </ul>
+                        <div class="btn"><a href="account_creation.html" class="btn btn-warning navbar-btn">CREATE ACCOUNT</a></div>
+                    </div>
+                </nav>
+                
+                <br><br>
+                <div class="container-fluid">
+                    <div class="survey-form">
+                        <br>
+                        <p><b>Take the following quiz to find out who has varied personalities and/or thoughts with you:</b></p>
+                        <p>For the following questions, choose which you most identify with on the 5-point Likert Scale:</p>
+                            <ul>1= Strongly Disagree</ul>
+                            <ul>2 = Somewhat Disagree</ul>
+                            <ul>3 = Neutral</ul>
+                            <ul>4 = Somewhat Agree</ul>
+                            <ul>5= Strongly Agree</ul>
+                    
+                        <form class="form" action="/action_page.php">
+                          <div class="form-group">
+                           <br><br>
+                            <label for="spirtuality"><b>Religiosity/Spirituality</b></label>
+                                <select class="form-control">
+                                  <option>1: I consider myself a spiritual person</option>
+                                  <option>2: I enjoy philosophical discussions – e.g. What is Truth? Do we have free will? Does God exist?</option>
+                                  <option>3: I take my faith, morals or personal beliefs very seriously</option>
+                                  <option>4: I am more of a family-oriented person than a friend-oriented person</option>
+                                  <option>5: I believe in a higher power or supernatural being</option>
+                                  <option>6: I believe there are natural laws that govern human lives</option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <label for="economics"><b>Fiscal-Economics</b></label>
+                                <select class="form-control">
+                                  <option>1: I support free market capitalism</option>
+                                  <option>2: I believe social safety-nets and welfare are necessary for the well-being and success of society</option>
+                                  <option>3: I often borrow money or use credit card to make purchases even when my savings are low</option>
+                                  <option>4: I think money is the root of all evils</option>
+                                  <option>5: I think money can buy happiness</option>
+                                  <option>6: I prepare budgets for myself</option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <label for="poltiical-standpoint"><b>Political Affiliation</b></label>
+                                <select class="form-control">
+                                  <option>1: I am in favour of the death penalty for people who commit serious felonies</option>
+                                  <option>2: I believe in big-governments regulating most aspects of its citizens’ lives</option>
+                                  <option>3: I think it is important to have diverse workplaces (based on gender, race, expertise)</option>
+                                  <option>4: I believe healthcare is a human right, and hence should be free</option>
+                                  <option>5: I believe the government should subsidize higher education as much as possible (e.g. free tuition)</option>
+                                  <option>6: I believe minority (marginalized) groups should receive benefits such as affirmative action</option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <label for="arts"><b>Arts</b></label>
+                                <select class="form-control">
+                                  <option>1: I believe art is important </option>
+                                  <option>2: I enjoy classical music over modern music</option>
+                                  <option>3: I pay more attention to the person/objects rather than the background in a painting</option>
+                                  <option>4: I appreciate stand-up comedies and consider improvisation a skill</option>
+                                  <option>5: I prefer simplistic design over a colourful, sophisticated one</option>
+                                  <option>6: I believe it is important for people to express themselves in creative ways</option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <label for="personality"><b>Personality</b></label>
+                                <select class="form-control">
+                                  <option>1: I am an impatient person, e.g. hate waiting in line or for public transit, get irritated at others when they are slow at certain tasks</option>
+                                  <option>2: When facing a challenge, I try to troubleshoot on my own before seeking help from others</option>
+                                  <option>3: In terms of achieving a goal, I value the process more than the outcome</option>
+                                  <option>4: I am trustworthy, and usually will not disclose others’ secrets even under pressure or coercionw</option>
+                                  <option>5: I judge people based on the content of their character, not by their achievement</option>
+                                  <option>6: I make friends easily</option> 
+                                </select>
+                          </div>
+                         <br><br>
+                          <div class="form-group">
+                            <label for="free-time"><b>Free Time</b></label>
+                                <select class="form-control">
+                                  <option>1: I enjoy going out on weekends instead of staying in</option>
+                                  <option>2: I enjoy travelling</option>
+                                  <option>3: I enjoy reading over playing video games</option>
+                                  <option>4: I make time for my family and friends </option>
+                                  <option>5: I try to be involved in extracurriculars</option>
+                                  <option>6: I enjoy learning new skills on my own time</option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <label for="future"><b>Future</b></label>
+                                <select class="form-control">
+                                  <option>1: I worry about the future often</option>
+                                  <option>2: I often make and revise my goals</option>
+                                  <option>3: I become disheartened if things don’t go my way</option>
+                                  <option>4: I have high expectations for myself</option>
+                                  <option>5: I plan events and projects ahead of time</option>
+                                  <option>6: Money and status matter a lot to me when I think of my future</option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <label for="food"><b>Food</b></label>
+                                <select class="form-control">
+                                  <option>1: If given enough time, I prefer cooking my own meal than going to a restaurant</option>
+                                  <option>2: For the same price, I would prefer a full-course meal over an all-you-can-eat buffet</option>
+                                  <option>3: I take my diet seriously</option>
+                                  <option>4: I care about sustainability (eg. whether the fruits & vegetables I purchase are grown locally)</option>
+                                  <option>5: In general, I prefer cooked food over raw food</option>
+                                  <option>6: I prefer spicy food over sweet </option> 
+                                </select>
+                          </div>
+                          <br><br>
+                          <div class="btn">
+                            <a href="homepage.html" class="btn btn-success" role="button">Submit My Responses</a>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                            
+                    <div class="row">
+                        <div class="col col-md-4">
+                            <img class="photo" src="photos/caffe_macchiato.jpg">
+                        </div>
+                        <br><br><br>
+                        <div class="col col-md-3">
+                            <img class="photo" src="photos/espresso_vs_latte_macchiato.jpg">
+                        </div>
+                    </div>
+                        
+                    <br>
+                </div>
+                
+            <br><br><br>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <h1 class="socialmedia-title">WHAT IS MACCHIATO ?</h1>
+                    <br>
+                        <p class="platform-description">Macchiato is a free online platform that aims to bring together individuals with varied personalities, disposition, and/or opinions and inviting them to engage in 1-on-1 dialogues.</p>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+
+</html>
